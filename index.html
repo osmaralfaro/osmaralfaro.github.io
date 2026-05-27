@@ -20,7 +20,21 @@
 <nav>
     <a class="pill" href="#about">About</a>
     <a class="pill" href="#links">Links</a>
+    <a class="pill" href="#me">Me</a>
 </nav>
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .card {
+    padding: 14px;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+</style>
+
 <body>
     <h1 id="about">Osmar Alfaro</h1>
     <p>I am a CS student at AVC.
@@ -39,5 +53,13 @@
     <p>
         Contact: <a href="mailto:oalfaro1@students.avc.edu">oalfaro1@students.avc.edu</a>
     </p>
+</body>
+<body>
+    <h2 id="me">About Me</h2>
+    <section class="grid">
+        <div class="card"><h3>Education</h3><p>A.A. — AVC, expected 2027</p></div>
+        <div class="card"><h3>Skills</h3><p>HTML, Python, C++, Electronics, AI</p></div>
+        <div class="card"><h3>Interests</h3><p>Web development, AI, gaming, Volleyball</p></div>
+    </section>
 </body>
 </html>
